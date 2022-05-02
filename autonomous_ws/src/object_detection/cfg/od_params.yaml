@@ -1,0 +1,12 @@
+/image_size: 640
+/model_path: "src/bdd_640.pt"
+/confidence_threshold: 0.4
+/iou_threshold: 0.4
+/demo: False
+/visualize_objects: True
+/visualize_tracker: False
+/visualize_lanes: False
+/pedestrian: True
+/vehicle: True
+/traffic_signal: True
+

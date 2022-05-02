@@ -1,0 +1,11 @@
+/compound_coef: 3
+
+/output: "demo_result"
+/load_weights: "weights/hybridnets.pth"
+/nms_thresh: 0.35
+/iou_thresh: 3
+/cuda: True
+/float16: True
+/final_image_topic: '/image_processed'
+/final_detection_topic: "/tracker_topic"
+/camera_topic: '/camera/image_color'

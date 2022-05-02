@@ -1,0 +1,5 @@
+<launch>
+	<node name="perception_nodes" pkg="perception" type="perception_nodes.py" output="screen">
+        <rosparam file="$(find perception)/cfg/perception_parameters.yaml" command="load" />
+        </node>
+</launch>
